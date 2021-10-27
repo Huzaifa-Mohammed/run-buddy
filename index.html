@@ -22,27 +22,37 @@
             <ul>
                 <li><a href="#what-we-do">
 
-                        what we do</li>
-                </a>
-                    <li><a href="#what-you-do">
+                        what we do
+                    </a>
+                </li>
+                <li><a href="#what-you-do">
 
-                        what you do</li>
-                </a>
-                        <li><a href="#your-trainers">
+                        what you do
+                    </a>
+                </li>
+                <li><a href="#your-trainers">
 
-                        Meet the Trainers</li>
-                </a>
-                            <li><a href="#reach-out">
+                        Meet the Trainers
+                    </a>
+                </li>
+                <li><a href="#reach-out">
 
                         Reach out
                     </a>
-                            </li>
+                </li>
             </ul>
 
         </nav>
     </Header>
     <!-- jumbotron -->
     <section class="hero">
+
+        <div class="hero-cta">
+            <h2> Start building habits</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius voluptatibus odit ad in, ipsam eum est debitis praesentium quos corporis perspiciatis natus magni sit explicabo dignissimos placeat, harum quam. Quam deserunt porro accusamus fugiat
+                harum quam. Quam deserunt porro accusamus fugiatharum quam. Quam deserunt porro accusamus fugiat voluptatum.</p>
+
+        </div>
 
         <div class="hero-form">
             <h3>Get Started today</h3>
@@ -57,14 +67,25 @@
                 <input type="tel" placeholder="Phone number" name="phone" id="phone" class="form-input" />
 
                 <p> Have you worked out with a trainer before?
-                    <input type="radio" name="trainer-confirm" id="trainer-yes" />
-                    <label for="trainer-yes"> Yes</label>
-                    <input type="radio" name="trainer-confirm" id="trainer-no" />
-                    <label for="trainer-no">No</label>
+                    <span class="radio-wrapper">
+
+                      <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                      <label for="trainer-yes"> Yes</label>
+                    </span>
+                    <span class="radio-wrapper">
+
+                        <input type="radio" name="trainer-confirm" id="trainer-no" />
+                        <label for="trainer-no">No</label>
+                    </span>
+
                 </p>
                 <p>
+                    <span class="checkbox-wrapper">
+
+                        <input type="checkbox" name="age-confirm" id="checkbox">
                     <label for="checkbox">I acknowledge that I am at least 18 years of age</label>
-                    <input type="checkbox" name="age-confirm" id="checkbox">
+                </span>
+
                 </p>
                 <button type="submit">
                     Get running!
@@ -76,42 +97,86 @@
 
     <!-- what we do -->
     <section id="what-we-do" class="intro">
-        <h2 class="section-title primary-border"> we do 🏃</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi debitis voluptates provident ipsum dolore corrupti repellat consectetur ab quam fugit Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro cum asperiores sequi laboriosam
-            non, aperiam minima nostrum at quia autem perspiciatis aspernatur obcaecati ipsam assumenda ex placeat eos maiores fugit.</p>
+        <div class="flex-row">
+
+            <h2 class="section-title primary-border">What we do 🏃</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi debitis voluptates provident ipsum dolore corrupti repellat consectetur ab quam fugit Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro cum asperiores sequi
+                laboriosam non, aperiam minima nostrum at quia autem perspiciatis aspernatur obcaecati ipsam assumenda ex placeat eos maiores fugit.</p>
+        </div>
     </section>
 
 
     <!-- what you do  -->
     <section id="what-you-do" class="steps">
+        <div class="flex-row">
+            <h2 class="section-title secondary-border">
 
-        <h2 class="section-title secondary-border">
-
-            What You Do
-        </h2>
-
-        <div>
-            <img src="./assets/images/step-1.svg" alt="">
-            <h3> <span> Step 1: Fill Out the Form Above. </span></h3>
-            <p>You're already here, so why not?</p>
+                What You Do
+            </h2>
         </div>
 
-        <div>
-            <img src="./assets/images/step-2.svg" alt="">
-            <h3><span>Step 2: Consult with One of Our Trainers.</span></h3>
-            <p>Are you here to build muscle, lose weight, or just feel good?</p>
+
+        <div class="step">
+            <h3> <span> Step 1.  </span></h3>
+            <div class="step-info">
+                <div class="step-img">
+                    <img src="./assets/images/step-1.svg" alt="">
+
+                </div>
+                <div class="step-text">
+                    <h4>Fill Out the Form Above.</h4>
+                    <p>You're already here, so why not?</p>
+                </div>
+            </div>
         </div>
 
-        <div>
-            <img src="./assets/images/step-3.svg" alt="">
-            <h3><span>Step 3: Get Running.</span></h3>
-            <p>Hit the ground running (literally) once your trainer lays out your plan.</p>
+        <div class="step">
+            <h3><span>Step 2. </span></h3>
+            <div class="step-info">
+                <div class="step-img">
+
+                    <img src="./assets/images/step-2.svg" alt="">
+                </div>
+                <div class="step-text">
+                    <h4>Consult with One of Our Trainers.</h4>
+                    <p>Are you here to build muscle, lose weight, or just feel good?</p>
+
+                </div>
+            </div>
         </div>
 
-        <div>
-            <img src="./assets/images/step-4.svg" alt="">
-            <h3><span>Step 4: See Results.</span></h3>
-            <p>Bi-weekly checkins with your trainer will keep you focused</p>
+        <div class="step">
+            <h3><span>Step 3.</span></h3>
+            <div class="step-info">
+                <div class="step-img">
+
+                    <img src="./assets/images/step-3.svg" alt="">
+                </div>
+                <div class="step-text">
+                    <h4> Get Running.</h4>
+                    <p>Hit the ground running (literally) once your trainer lays out your plan.</p>
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="step">
+            <h3><span>Step 4. </span></h3>
+            <div class="step-info">
+                <div class="step-img">
+
+                    <img src="./assets/images/step-4.svg" alt="">
+                </div>
+                <div class="step-text">
+                    <h4>See Results.</h4>
+                    <p>Bi-weekly checkins with your trainer will keep you focused</p>
+
+                </div>
+
+            </div>
+
         </div>
 
 
@@ -120,46 +185,60 @@
 
 
     <!-- trainer -->
-    <section id="your-trainers" class="trainers">
-        <h2 class="section-title primary-border">
+    <section id="your-trainers">
+        <div class="flex-row">
+            <h2 class="section-title primary-border">
+                Meet the Trainers
+            </h2>
 
-            Meet the Trainers
-        </h2>
-        <article class="trainer">
-            <img src="./assets/images/trainer-1.jpg" alt="arron stephen in his workout clothes, ready to pump iron">
-            <div class="trainer-bio text-left">
-                <h3>Arron stephen</h3>
-                <h4>Speed / Strength</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil animi provident at hic a quibusdam? Lorem ipsum dolor sit, amet consectetur adipisicing elit. A sapiente nostrum velit? Doloremque voluptates necessitatibus incidunt animi
-                    laboriosam ea blanditiis. Distinctio labore tempore animi itaque unde sunt! Autem, quibusdam iure?</p>
-            </div>
-        </article>
-        <!-- second trainer -->
-        <article class="trainer">
-            <div class="trainer-bio text-right">
-                <h3>Joanna Gill</h3>
-                <h4>Endurance</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aperiam, similique minus quisquam voluptates rem? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, dignissimos dolore non eius perferendis aperiam reiciendis
-                    ad molestias eligendi aliquam blanditiis! Praesentium quod veniam explicabo alias officia assumenda blanditiis omnis.</p>
-            </div>
-            <img src="./assets/images/trainer-2.jpg" alt="Joanna Gill cooling off after a workout">
-        </article>
-        <!-- Third trainer -->
-        <article class="trainer">
-            <img src="./assets/images/trainer-3.jpg" alt="">
-            <div class="trainer-bio text-left">
-                <h3>Harry "the Headband" Smith</h3>
-                <h4>Strength</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore nemo consequuntur neque in! Delectus, recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sequi alias unde sint ipsum consectetur quia dolore provident.
-                    Eos odit optio ipsum, aliquam sapiente temporibus officia praesentium? Placeat, quas sequi!</p>
-            </div>
-        </article>
+        </div>
+        <div class="trainers">
+
+            <article class="trainer">
+                <img src="./assets/images/trainer-1.jpg" alt="arron stephen in his workout clothes, ready to pump iron">
+                <div class="trainer-bio ">
+                    <h3 class="trainer-name">Arron stephen</h3>
+                    <h4 class="trainer-role">Speed / Strength</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil animi provident at hic a quibusdam? Lorem ipsum dolor sit, amet consectetur adipisicing elit. A sapiente nostrum velit? Doloremque voluptates necessitatibus incidunt animi
+                        laboriosam ea blanditiis. Distinctio labore tempore animi itaque unde sunt! Autem, quibusdam iure?</p>
+                </div>
+
+            </article>
+
+            <!-- second trainer -->
+
+
+            <article class="trainer">
+                <img src="./assets/images/trainer-2.jpg" alt="Joanna Gill cooling off after a workout">
+                <div class="trainer-bio">
+                    <h3 class="trainer-name">Joanna Gill</h3>
+                    <h4 class="trainer-role">Endurance</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aperiam, similique minus quisquam voluptates rem? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, dignissimos dolore non eius perferendis aperiam reiciendis
+                        ad molestias eligendi aliquam blanditiis! Praesentium quod veniam explicabo alias officia assumenda blanditiis omnis.</p>
+                </div>
+            </article>
+
+            <!-- Third trainer -->
+
+
+            <article class="trainer">
+                <img src="./assets/images/trainer-3.jpg" alt="">
+                <div class="trainer-bio ">
+                    <h3 class="trainer-name">Harry "the Headband" Smith</h3>
+                    <h4 class="trainer-role">Strength</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore nemo consequuntur neque in! Delectus, recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sequi alias unde sint ipsum consectetur quia dolore
+                        provident. Eos odit optio ipsum, aliquam sapiente temporibus officia praesentium? Placeat, quas sequi!</p>
+                </div>
+            </article>
+        </div>
+
 
     </section>
 
 
 
     <!-- / reach -->
+
     <section id="reach-out" class="contact">
         <h2 class="section-title secondary-border">
 
@@ -167,8 +246,6 @@
 
         </h2>
         <div class="contact-info">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d184552.5728991403!2d-79.51814225031829!3d43.71815566157424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb90d7c63ba5%3A0x323555502ab4c477!2sToronto%2C%20ON!5e0!3m2!1sen!2sca!4v1634267532421!5m2!1sen!2sca"
-                width="400px" height="400px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
             <div>
                 <h3>Run Buddy</h3>
@@ -184,8 +261,26 @@
 
             </address>
             </div>
+
+
+            <div class="contact-form">
+                <h3>Contacth us</h3>
+                <form action="">
+                    <label for="contact-name">Your Name</label>
+                    <input type="text" id="contact-name" placeholder="Your Name" />
+
+                    <label for="contact-message"> Message</label>
+                    <textarea id="contact-message" placeholder="Message" cols="30" rows="6"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d184552.5728991403!2d-79.51814225031829!3d43.71815566157424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb90d7c63ba5%3A0x323555502ab4c477!2sToronto%2C%20ON!5e0!3m2!1sen!2sca!4v1634267532421!5m2!1sen!2sca"
+                width="400px" height="400px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
         </div>
-        </div>
+
     </section>
 
 
